@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xdemonlist</title>
+    <style>
+        :root {
+            --bg-color: #0b0b0c;
+            --card-bg: #141416;
+            --accent-color: #ff3333;
+            --text-color: #ffffff;
+            --text-muted: #aaaaaa;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            width: 100%;
+            background: linear-gradient(180deg, rgba(255,51,51,0.1) 0%, rgba(0,0,0,0) 100%);
+            border-bottom: 1px solid rgba(255, 51, 51, 0.2);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            color: var(--accent-color);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: 0 0 10px rgba(255, 51, 51, 0.5);
+        }
+
+        header p {
+            color: var(--text-muted);
+            margin-top: 10px;
+        }
+
+        .list-container {
+            width: 90%;
+            max-width: 800px;
+            margin: 30px 0;
+        }
+
+        .demon-card {
+            background-color: var(--card-bg);
+            border-left: 5px solid var(--accent-color);
+            border-radius: 6px;
+            padding: 20px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+            transition: transform 0.2s;
+        }
+
+        .demon-card:hover {
+            transform: translateX(5px);
+        }
+
+        .demon-info {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .rank {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: var(--accent-color);
+            min-width: 50px;
+        }
+
+        .level-name {
+            font-size: 1.4rem;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        .creator {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            margin-top: 4px;
+        }
+
+        .video-btn {
+            background-color: var(--accent-color);
+            color: white;
+            text-decoration: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            transition: background 0.2s;
+        }
+
+        .video-btn:hover {
+            background-color: #cc0000;
+        }
+
+        footer {
+            margin-top: auto;
+            padding: 20px;
+            color: var(--text-muted);
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Official Top 10 Extreme Demons</h1>
+        <p>Live rankings synchronized with the global standard</p>
+    </header>
+
+    <main class="list-container">
+        
+        <!-- #1 Demon -->
+        <div class="demon-card">
+            <div class="demon-info">
+                <div class="rank">#1</div>
+                <div>
+                    <div class="level-name">Society</div>
+                    <div class="creator">by <strong>Neomarbilan</strong></div>
+                </div>
+            </div>
+            <a href="https://pointercrate.com/demonlist/1/" target="_blank" class="video-btn">View Stats</a>
+        </div>
+
+        <!-- #2 Demon -->
+        <div class="demon-card">
+            <div class="demon-info">
+                <div class="rank">#2</div>
+                <div>
+                    <div class="level-name">Thinking Space II</div>
+                    <div class="creator">by <strong>CairoX</strong> & more</div>
+                </div>
+            </div>
+            <a href="https://pointercrate.com" target="_blank" class="video-btn">View Stats</a>
+        </div>
+
+        <!-- #3 Demon -->
+        <div class="demon-card">
+            <div class="demon-info">
+                <div class="rank">#3</div>
+                <div>
+                    <div class="level-name">Flamewall</div>
+                    <div class="creator">by <strong>Narwall</strong> & more</div>
+                </div>
+            </div>
+            <a href="https://pointercrate.com" target="_blank" class="video-btn">View Stats</a>
+        </div>
+
+        <!-- #4 Demon -->
+        <div class="demon-card">
+            <div class="demon-info">
+                <div class="rank">#4</div>
+                <div>
+                    <div class="level-name">Amethyst</div>
+                    <div class="creator">by <strong>iMist</strong></div>
+                </div>
+            </div>
+            <a href="https://pointercrate.com" target="_blank" class="video-btn">View Stats</a>
+        </div>
+
+        <!-- #5 Demon -->
+        <div class="demon-card">
+            <div class="demon-info">
+                <div class="rank">#5</div>
+                <div>
+                    <div class="level-name">Tidal Wave</div>
+                    <div class="creator">by <strong>OniLink</strong></div>
+                </div>
+            </div>
+            <a href="https://pointercrate.com" target="_blank" class="video-btn">View Stats</a>
+        </div>
+
+        <!-- #6 Demon -->
+        <div class="demon-card">
+            <div class="demon-info">
+                <div class="rank">#6</div>
+                <div>
+                    <div class="level-name">Green Bullet</div>
+                    <div class="creator">by <strong>cherryteam</strong></div>
+                </div>
+            </div>
+            <a href="https://pointercrate.com" target="_blank" class="video-btn">View Stats</a>
+        </div>
+
+        <!-- #7 Demon -->
+        <div class="demon-card">
+            <div class="demon-info">
+                <div class="rank">#7</div>
+                <div>
+                    <div class="level-name">ORBIT</div>
+                    <div class="creator">by <strong>MindCap</strong> & more</div>
+                </div>
+            </div>
+            <a href="https://pointercrate.com" target="_blank" class="video-btn">View Stats</a>
+        </div>
+
+        <!-- #8 Demon -->
+        <div class="demon-card">
+            <div class="demon-info">
+                <div class="rank">#8</div>
+                <div>
+                    <div class="level-name">Nullscapes</div>
+                    <div class="creator">by <strong>Kiba</strong></div>
+                </div>
+            </div>
+            <a href="https://pointercrate.com/demonlist/8/" target="_blank" class="video-btn">View Stats</a>
+        </div>
+
+        <!-- #9 Demon -->
+        <div class="demon-card">
+            <div class="demon-info">
+                <div class="rank">#9</div>
+                <div>
+                    <div class="level-name">Quanteuse processing</div>
+                    <div class="creator">by <strong>Renn241</strong></div>
+                </div>
+            </div>
+            <a href="https://pointercrate.com/demonlist/9/" target="_blank" class="video-btn">View Stats</a>
+        </div>
+
+        <!-- #10 Demon -->
+        <div class="demon-card">
+            <div class="demon-info">
+                <div class="rank">#10</div>
+                <div>
+                    <div class="level-name">BOOBAWAMBA</div>
+                    <div class="creator">by <strong>Akunakunn</strong></div>
+                </div>
+            </div>
+            <a href="https://pointercrate.com/demonlist/10/" target="_blank" class="video-btn">View Stats</a>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Data synced with Pointercrate Demonlist standards.</p>
+    </footer>
+
+</body>
+</html>
